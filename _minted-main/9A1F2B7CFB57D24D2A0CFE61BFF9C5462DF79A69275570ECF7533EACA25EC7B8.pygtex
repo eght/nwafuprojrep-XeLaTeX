@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}[htb]
+  \PYG{k}{\PYGZbs{}bicaption}\PYG{n+na}{[...]}\PYG{n+nb}{\PYGZob{}}...\PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}tab:bicap\PYG{n+nb}{\PYGZcb{}\PYGZcb{}\PYGZob{}}...\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}\PYGZob{}}lr\PYG{n+nb}{\PYGZcb{}}
+  \PYG{k}{\PYGZbs{}toprule}
+  城市 \PYG{n+nb}{\PYGZam{}} 人口 \PYG{k}{\PYGZbs{}\PYGZbs{}}
+  \PYG{k}{\PYGZbs{}midrule}
+  Mexico City \PYG{n+nb}{\PYGZam{}} 20,116,842\PYG{k}{\PYGZbs{}\PYGZbs{}}
+  \PYG{k}{\PYGZbs{}bottomrule}
+  \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

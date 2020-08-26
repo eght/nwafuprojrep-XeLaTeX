@@ -1,0 +1,17 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c}{\PYGZpc{} 设置封面基本信息，\PYGZbs{}linebreak 前面不要有空格，}
+\PYG{c}{\PYGZpc{} 中文之间的空格无法消除}
+\PYG{c}{\PYGZpc{} 另，在\PYGZbs{}nwafuset中不可以出现空行}
+\PYG{k}{\PYGZbs{}nwafuset}\PYG{n+nb}{\PYGZob{}}
+  college = \PYG{n+nb}{\PYGZob{}}信息工程学院\PYG{n+nb}{\PYGZcb{}},            \PYG{c}{\PYGZpc{} 学院名称}
+  projname = \PYG{n+nb}{\PYGZob{}}面向对象程序设计\PYG{n+nb}{\PYGZcb{}},       \PYG{c}{\PYGZpc{} 实践课程名称}
+  title = \PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}LaTeX}\PYG{n+nb}{\PYGZob{}\PYGZcb{}}科技排版实习报告\PYG{n+nb}{\PYGZcb{}},  \PYG{c}{\PYGZpc{} 实习报告题目}
+  stuno = \PYG{n+nb}{\PYGZob{}}2013051289\PYG{n+nb}{\PYGZcb{}},                \PYG{c}{\PYGZpc{} 学号}
+  author = \PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}LaTeX}\PYG{n+nb}{\PYGZob{}\PYGZcb{}}er\PYG{n+nb}{\PYGZcb{}},               \PYG{c}{\PYGZpc{} 姓名}
+  major = \PYG{n+nb}{\PYGZob{}}计算机科学与技术\PYG{n+nb}{\PYGZcb{}},          \PYG{c}{\PYGZpc{} 专业}
+  classid = \PYG{n+nb}{\PYGZob{}}152\PYG{n+nb}{\PYGZcb{}},                    \PYG{c}{\PYGZpc{} 班级(只填写数字，不要有其它内容)}
+  adviser = \PYG{n+nb}{\PYGZob{}}Registor\PYG{n+nb}{\PYGZcb{}},                   \PYG{c}{\PYGZpc{} 指导教师姓名}
+  startdate = \PYG{n+nb}{\PYGZob{}}2020年8月10日\PYG{n+nb}{\PYGZcb{}},        \PYG{c}{\PYGZpc{} 实践起始日期}
+  enddate = \PYG{n+nb}{\PYGZob{}}8月23日\PYG{n+nb}{\PYGZcb{}},                \PYG{c}{\PYGZpc{} 实践结束日期}
+\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

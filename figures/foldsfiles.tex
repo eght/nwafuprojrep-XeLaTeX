@@ -1,0 +1,62 @@
+%  \begin{center}
+    % \includegraphics[height=0.8\textheight]{coworks}
+%    \scalebox{0.5}{
+      \begin{forest}
+        pic dir tree,
+        pic root,
+        for tree={% folder icons by default; override using file for file icons
+          directory,
+        },
+        [jobname【工作根目录】%, 
+          [bib【参考文献数据库目录，根据需要，可以有多个数据库】%
+            [sample.bib【样例数据库，根据需要，可以有多个数据库】, file%
+            ]   
+          ]
+          [codes【报告中需要的代码源文件，可以有多个，根据需要增减】        
+            [ex04-01.cpp, file
+            ]
+            [$\vdots$, file
+            ]
+          ]
+          [figs【插图目录，可根据需要增减】
+            [plot
+            ]
+            [xxxx.png, file
+            ]
+            [xxxx.pdf, file
+            ]
+          ]
+          [settings【自定义命令、环境等文件、引入宏包文件，可根据需要进行调整】        
+            [format.tex【自定义命令、环境、参数设置等】, file
+            ]
+            [math-commands.tex【自定义数学符号命令】, file
+            ]
+            [packages.tex【需要引入的宏包】, file
+            ]
+            [terms.tex【自定义术语命令】, file
+            ]
+          ]
+          [boxie.sty【盒子宏包，如果需要则置于根目录，并在settings/package.tex中引用该宏包】, file
+          ]
+          [fvextra.sty【子宏包需要的宏包，如果使用了boxie宏包，则必须置于根目录】, file
+          ]
+          [lstlinebgrd.sty【子宏包需要的宏包，如果使用了boxie宏包，则必须置于根目录】, file
+          ]
+          [main.tex【主控文件，\emph{必须存在}，且置于根目录】, file
+          ]
+          [Makefile【ake命令需要的脚本文件，如能执行make，可以在根目录执行make命令进行编译】, file
+          ]
+          [nwafuprojrep.cls【文档类文件，即模板文件，必须存在，且置于根目录】, file
+          ]
+          [pgf-umlcd.sty【UML图绘制宏包，如果需要则置于根目录，并在settings/package.tex中引用该宏包】, file
+          ]
+          [tikz-flowchart.sty【流程图绘制宏包，如果需要则置于根目录，并在settings/package.tex中引用该宏包】, file
+          ]
+          [tikz-imglabels.sty【图像标注/标记宏包，如果需要则置于根目录，并在settings/package.tex中引用该宏包】, file
+          ]
+          [.latexmkrc【latexmk命令需要的脚本文件，如能执行latexmk，可以在根目录执行latexmk命令进行编译】, file
+          ]
+        ]
+      \end{forest}
+%    }
+%  \end{center}

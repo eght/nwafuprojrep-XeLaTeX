@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c}{\PYGZpc{} 导言区}
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}amsmath\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}newtheorem}\PYG{n+nb}{\PYGZob{}}theorem\PYG{n+nb}{\PYGZcb{}\PYGZob{}}定理\PYG{n+nb}{\PYGZcb{}}
+...
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}theorem\PYG{n+nb}{\PYGZcb{}}[勾股定理]
+  设直⻆三⻆形的三条边⻓分别是\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{a}\PYG{l+s}{\PYGZdl{}}, \PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{b}\PYG{l+s}{\PYGZdl{}}和 \PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{c}\PYG{l+s}{\PYGZdl{}} ,
+  其中 \PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{c}\PYG{l+s}{\PYGZdl{}} 是斜边边⻓,则有 \PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{a\PYGZca{}}\PYG{l+m}{2}\PYG{n+nb}{ }\PYG{o}{+}\PYG{n+nb}{ b\PYGZca{}}\PYG{l+m}{2}\PYG{n+nb}{ }\PYG{o}{=}\PYG{n+nb}{ c\PYGZca{}}\PYG{l+m}{2}\PYG{l+s}{\PYGZdl{}} 成立.
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}theorem\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}
